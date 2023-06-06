@@ -126,8 +126,15 @@
 #     if(i == 2):
 #         l1[i] = 66
 # print(l1)
-s = "pwwkew"
-x = set()
-for char in s:
-    x.add(char)
-print(x)
+# s = "pwwkew"
+# x = set()
+# for char in s:
+#     x.add(char)
+# print(x)
+
+# x = 'mamun'
+# x[0] = 'v'
+# print (x)
+person_info = {"name": "Sakib", "salary": 80000}
+value = person_info.get("salary")
+print(value)
