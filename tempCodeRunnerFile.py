@@ -1,1 +1,1 @@
-x = Calculator()
+print()
